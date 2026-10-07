@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "The Min | سلامت سازمانی",
+    "slug": "the-min-wellness",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "scheme": "themin",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#23408E"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ir.themin.wellness"
+    },
+    "android": {
+      "package": "ir.themin.wellness",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#23408E"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/logo.png",
+      "name": "The Min",
+      "shortName": "The Min",
+      "description": "سامانهٔ سلامت سازمانی The Min",
+      "themeColor": "#23408E",
+      "backgroundColor": "#F2F4FA",
+      "display": "standalone"
+    },
+    "plugins": ["expo-router", "expo-font"]
+  }
+}
