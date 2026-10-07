@@ -117,7 +117,7 @@ export default function LoginScreen() {
                 <TextInput 
                   style={[inputStyle, { textAlign: 'center', letterSpacing: 3, fontSize: 16, fontWeight: '700' }]} 
                   keyboardType="number-pad" 
-                  placeholder="0012345672" 
+                  placeholder="REDACTED_ID" 
                   placeholderTextColor={colors.textMuted} 
                   value={codeInput} 
                   onChangeText={(t) => {

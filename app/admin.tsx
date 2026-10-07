@@ -408,7 +408,7 @@ export default function AdminScreen() {
           <TextInput
             style={inp}
             keyboardType="numeric"
-            placeholder={isFa ? 'مثلاً ۰۰۱۳۴۵۶۷۸' : 'e.g. 0012345678'}
+            placeholder={isFa ? 'مثلاً ۰۰۱۳۴۵۶۷۸' : 'e.g. REDACTED_ID'}
             placeholderTextColor={colors.textMuted}
             value={newId}
             onChangeText={(t) => setNewId(t)}

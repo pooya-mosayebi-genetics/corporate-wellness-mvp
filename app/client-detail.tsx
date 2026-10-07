@@ -145,7 +145,7 @@ export default function ClientDetailScreen() {
           <TextInput
             value={searchInput}
             onChangeText={setSearchInput}
-            placeholder={isFa ? 'مثال: 0012345678' : 'e.g. 0012345678'}
+            placeholder={isFa ? 'مثال: REDACTED_ID' : 'e.g. REDACTED_ID'}
             placeholderTextColor={colors.textMuted}
             keyboardType="numeric"
             maxLength={15}

@@ -10,7 +10,7 @@ import type { Permission } from '../../src/utils/permissions';
 
 // Mock session/account helpers
 const makeSession = (role: string): Session => ({
-  nationalId: '0012345678',
+  nationalId: 'REDACTED_ID',
   role: role as any,
   issuedAt: Date.now(),
   expiresAt: Date.now() + 100000,
@@ -18,7 +18,7 @@ const makeSession = (role: string): Session => ({
 });
 
 const makeAccount = (perms: Permission[] = [], denied: Permission[] = []): UserAccount => ({
-  nationalId: '0012345678',
+  nationalId: 'REDACTED_ID',
   role: 'user' as any,
   active: true,
   passwordSalt: null,

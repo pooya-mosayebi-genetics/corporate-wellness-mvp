@@ -30,7 +30,7 @@ describe('aggregateGuard', () => {
     it('removes direct identifiers recursively', () => {
       const raw = {
         id: 'rec-1',
-        nationalId: '0012345678',
+        nationalId: 'REDACTED_ID',
         profile: {
           name: 'Ali',
           email: 'ali@test.com',
